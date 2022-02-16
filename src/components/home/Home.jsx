@@ -7,9 +7,8 @@ const workoutData = [
     {id: 3, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
     {id: 3, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
     {id: 3, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
-    {id: 3, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
-]
 
+]
 
 const testimonyData = [
     {id:1, text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id est dolor. Sed sit amet massa sapien. Ut bibendum urna vel consectetur laoreet. Cras congue metus at tortor gravida convallis. In eros velit, ultricies non eros vitae, mollis lobortis tellus. In tincidunt nibh eget augue vehicula, at auctor justo volutpat. In hac habitasse platea dictumst. ", img: "assets/5103028.jpg", name: "nama", position: "uni student"},
