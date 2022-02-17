@@ -1,13 +1,16 @@
+
 .navbar{
     width: 100%;
     height: 20vh;
     background-color: #04052E;
     position: fixed;
     top: 0;
-    z-index: 3;
+    z-index: 2;
     transition: all 1s ease;
     overflow: hidden;
     border-radius: 0 0 50px 50px;
+    overflow-y:visible;
+    max-height: 50vh;
 }
 
 .wrapper{
@@ -33,6 +36,11 @@
     font-weight: 800;
     text-decoration: none;
     text-align: center;
+    transition: all 0.3s ease;
+}
+
+.left .logo:hover{
+    font-size: 27px;
 }
 
 .center{
@@ -46,11 +54,13 @@
     font-size: 18px;
     font-weight: 600;
     color: white;
-    transition: all .3s ease-in-out;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
 }
 
 .center a:hover{
-    color:yellow;
+    font-size: 20px;
+    color: yellow;
 }
 
 .right{
@@ -69,4 +79,5 @@
 
 .right a .icon:hover{
     color: yellow;
+    width: 70%;
 }

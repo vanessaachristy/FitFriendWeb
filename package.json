@@ -12,6 +12,7 @@
     "@material-ui/icons": "^4.11.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "^3.4.4"
   },
   "devDependencies": {

@@ -145,7 +145,6 @@
 
 .workout{
     height: 100vh;
-    background-color: greenyellow;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -194,7 +193,7 @@
     margin-right: 10px;
     border-radius: 25px;
     background-color: white;
-    height: 40vh;
+    height: 41vh;
     width: 20vw;
     transition: all 0.25s ease-in-out;
 }
@@ -217,7 +216,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .workout-bottom-wrapper img{
@@ -225,11 +224,12 @@
     height: auto;    
 }
 
-.workout-block h3{
+.workout-bottom-wrapper h3{
     font-size: 10px;
     font-weight: 600;
     width: 12vw;
     text-align: center;
+    margin-top: 10px;
     
 }
 
@@ -308,10 +308,26 @@
 .testimony-block .left{
     width: 60vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
+    justify-content: space-evenly;
     padding: 10px;
+}
+
+.testimony-block .left h1{
+    width: 60vw;
+    height: 1vh;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+}
+
+.testimony-block .left h2{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    color: black;
+    text-align: center;
 }
 
 .testimony-block .right{

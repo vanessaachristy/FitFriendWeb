@@ -62,7 +62,11 @@ export default function Home() {
             <div className="testimony-container">
                 {testimonyData.map((testimony)=>(
                     <div className="testimony-block">
-                        <div className="left">{testimony.text}</div>
+                        <div className="left">
+                            <h1>"</h1>
+                            <h2>{testimony.text}</h2>
+                            <h1>"</h1>
+                        </div>
                         <div className="right">
                             <img src={testimony.img}/>
                             <h2>{testimony.name}</h2>
