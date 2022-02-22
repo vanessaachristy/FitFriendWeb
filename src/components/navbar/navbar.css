@@ -9,8 +9,7 @@
     transition: all 1s ease;
     overflow: hidden;
     border-radius: 0 0 50px 50px;
-    overflow-y:visible;
-    max-height: 50vh;
+    overflow-y: none;
 }
 
 .wrapper{
@@ -19,7 +18,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    padding: 5px 25px;
+ 
 }
 
 .left{
@@ -58,6 +57,17 @@
     text-decoration: none;
 }
 
+.center-item{
+    width:auto;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.center-item:hover{
+    color: yellow;
+}
 .center a:hover{
     font-size: 20px;
     color: yellow;

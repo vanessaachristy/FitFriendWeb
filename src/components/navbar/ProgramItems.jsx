@@ -10,7 +10,7 @@ export const ProgramItems = [
         cName: 'program-dropdown-item'
     },
     {
-        title: 'Meal Plam',
+        title: 'Meal Plan',
         path: '/meal-plan',
         cName: 'program-dropdown-item'
     }

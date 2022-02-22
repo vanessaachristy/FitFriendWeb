@@ -189,29 +189,38 @@
 }
 
 
-.workout-block{
+.workout-container .workout-block{
     margin-right: 10px;
     border-radius: 25px;
     background-color: white;
     height: 41vh;
-    width: 20vw;
+    min-width: 15vw;
     transition: all 0.25s ease-in-out;
+    scroll-snap-align: start;
 }
 
 .workout-block:hover{
-    width: 22vw;
+    width: 20vw;
     height:42vh;
 }
 
 .workout-container{
-    width: 90vw;
+    max-width: 90vw;
     height: 45vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+
 }
 
+.workout-container::-webkit-scrollbar{
+    width: 0;
+
+}
 .workout-block .workout-bottom-wrapper{
     display: flex;
     flex-direction: column;
@@ -268,15 +277,6 @@
 .workout-block h3{
     font-size: 15px;
 }
-
-
-.workout-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-
 
 .testimony{
     height: 100vh;

@@ -7,6 +7,10 @@ const workoutData = [
     {id: 3, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
     {id: 3, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
     {id: 3, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
+    {id: 3, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
+    {id: 3, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
+    {id: 3, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
+    {id: 3, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
 
 ]
 

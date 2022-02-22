@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom'
 import ProgramDropdown from './ProgramDropdown';
 
 
+
 export default function Navbar() {
 
     const [dropdown, setDropdown] = useState(false);
@@ -37,26 +38,44 @@ export default function Navbar() {
                 </div></a>
             </div>
             <div className='center'>
+
+                <div className="center-item">
                 <Link to="/home">
                     <a>HOME</a>
                 </Link>
-                <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-                    <Link to="/personal-training" className="programs-dropdown">
+                </div>
+
+                <div className="center-item" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+                    <Link to="/personal-training">
                     <a>PROGRAMS</a>
                     </Link>
+                    {dropdown && <ProgramDropdown/>}
                 </div>
+
+                <div className="center-item">
                 <Link to="/workout">
                     <a>WORKOUT</a>
                 </Link>
+                </div>
+
+                <div className="center-item">
                 <Link to="/blog">
                     <a>BLOG</a>
                 </Link>
+                </div>
+                
+                <div className="center-item">
                 <Link to="/shop">
                     <a>SHOP</a>
                 </Link>
+                </div>
+                
+                <div className="center-item">
                 <Link to="/about">
                     <a>ABOUT</a>
                 </Link>
+                </div>
+                
             </div>
             <div className='right'>
                 <a><Person className="icon"/></a>

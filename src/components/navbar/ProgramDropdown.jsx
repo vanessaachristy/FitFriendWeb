@@ -4,8 +4,8 @@ import {ProgramItems} from './ProgramItems'
 import {Link} from 'react-router-dom'
 
 export default function ProgramDropdown() {
-  const [click, setClick] = useState(false)
-  const handleClick = () => setClick(!click)
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
 
   return (
     <ul onClick={handleClick} className={click ? 'program-dropdown clicked' : 'program-dropdown'}>
