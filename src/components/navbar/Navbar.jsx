@@ -3,7 +3,7 @@ import {Person, Search, ShoppingCart} from '@material-ui/icons/';
 import "./navbar.css"
 import "./programdropdown.css"
 import {Link} from 'react-router-dom'
-import ProgramDropdown from './ProgramDropdown';
+import {ProgramDropdown, WorkoutDropdown} from './ProgramDropdown';
 
 
 
@@ -48,13 +48,15 @@ export default function Navbar() {
                 <div className="center-item" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                     <Link to="/personal-training">
                     <a>PROGRAMS</a>
-                    </Link>
                     {dropdown && <ProgramDropdown/>}
+                    </Link>
+                   
                 </div>
 
-                <div className="center-item">
+                <div className="center-item" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                 <Link to="/workout">
                     <a>WORKOUT</a>
+                    {dropdown && <WorkoutDropdown/>}
                 </Link>
                 </div>
 

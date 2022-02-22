@@ -180,6 +180,7 @@
     border-width: 5px;
     border-radius: 20px;
     border-color: white;
+    text-decoration: none;
 }
 
 
@@ -200,12 +201,12 @@
 }
 
 .workout-block:hover{
-    width: 20vw;
-    height:42vh;
+    min-width: 18vw;
+    height: 43vh;
 }
 
 .workout-container{
-    max-width: 90vw;
+    max-width: 80vw;
     height: 45vh;
     display: flex;
     flex-direction: row;
@@ -214,7 +215,7 @@
     overflow-x: auto;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
-
+    overflow-y: hidden;
 }
 
 .workout-container::-webkit-scrollbar{
@@ -357,4 +358,18 @@
     font-weight: 400;
     margin-top: 1vh;
     margin-bottom: 1vh;
+}
+
+.testimony-block .bottom-quote{
+    width: 50px;
+    height: auto;
+    margin-left: 50vw;
+}
+
+.testimony-block .top-quote{
+    width: 50px;
+    height: auto;
+    transform: scaleX(-1);
+    margin-right: 50vw;
+
 }

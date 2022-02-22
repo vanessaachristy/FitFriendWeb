@@ -1,16 +1,18 @@
 import React from 'react'
 import "./home.css"
+import {Link} from 'react-router-dom'
+import {FormatQuoteOutlined} from '@material-ui/icons/';
 
 const workoutData = [
     {id: 1, category: "Full Body", duration: "20 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home for your Body and Mind"},
-    {id: 2, category: "Full Body", duration: "30 MINS", img: "assets/5103028.jpg", title: "Half Body Burn at Home"},
-    {id: 3, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
-    {id: 3, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
-    {id: 3, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
-    {id: 3, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
-    {id: 3, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
-    {id: 3, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
-    {id: 3, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
+    {id: 2, category: "Half Body", duration: "30 MINS", img: "assets/5103028.jpg", title: "Half Body Burn at Home"},
+    {id: 3, category: "Full Body", duration: "45 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
+    {id: 4, category: "Full Body", duration: "25 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
+    {id: 5, category: "Full Body", duration: "35 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
+    {id: 6, category: "Full Body", duration: "10 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
+    {id: 7, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
+    {id: 8, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
+    {id: 9, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
 
 ]
 
@@ -59,7 +61,7 @@ export default function Home() {
                 </div>
             ))}
             </div>
-            <div className="browsebutton">BROWSE MORE</div>
+            <Link to="/workout"><div className="browsebutton">BROWSE MORE</div></Link>
         </div>
         <div className="testimony">
             <h1>#FitFriendSays</h1>
@@ -67,9 +69,9 @@ export default function Home() {
                 {testimonyData.map((testimony)=>(
                     <div className="testimony-block">
                         <div className="left">
-                            <h1>"</h1>
+                            <FormatQuoteOutlined className="top-quote"/>
                             <h2>{testimony.text}</h2>
-                            <h1>"</h1>
+                            <FormatQuoteOutlined className="bottom-quote"/>
                         </div>
                         <div className="right">
                             <img src={testimony.img}/>

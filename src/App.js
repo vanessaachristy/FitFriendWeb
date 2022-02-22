@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar"
 import Home from "./components/home/Home"
 import Programs from "./components/programs/Programs";
 import Workout from "./components/workout/Workout";
+import Beginner from "./components/workout/Beginner";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 
@@ -19,6 +20,7 @@ function App(){
         <Route path="/blog" element={<Programs/>}/>
         <Route path="/shop" element={<Programs/>}/>
         <Route path="/about" element={<Programs/>}/>
+        <Route path="/beginner" element={<Beginner/>}/>
       </Routes>
     </div>
     </Router>

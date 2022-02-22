@@ -44,14 +44,128 @@
 .beginner{
     height: 100vh;
     background-color: #160D35;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.beginner-top{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 10vh;
+}
+
+.beginner-top h3{
+    text-decoration: none;
+    color: white;
+    transition: all 0.25 ease-in-out;
+}
+
+.beginner-top h3:hover{
+    color: #ae9de9;
+}
+
+.beginner-item{
+    max-width: 90vw;
+    height: 58vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    overflow-y: hidden;
+}
+
+.beginner-item .workout-block{
+    margin-right: 10px;
+    border-radius: 25px;
+    background-color: white;
+    height: 52vh;
+    min-width: 20vw;
+    transition: all 0.25s ease-in-out;
+    scroll-snap-align: start;
+}
+
+.beginner-item .workout-block:hover{
+    min-width: 25vw;
+    height: 57vh;
+}
+
+.beginner-item .workout-block .category{
+    font-size: 20px;
+    font-weight: 600;
+    background-color:#554A7C;
+    width: 8vw;
+    height: 5vh;
+    padding: 10px ;
+    border-radius: 0 25px 25px 0;
+    color: white;
+    z-index: 1;
+}
+
+.beginner-item .workout-block .duration{
+    font-size: 20px;
+    font-weight: 600;
+    background-color:#9283C7;
+    width: 8vw;
+    height: 5vh;
+    padding: 10px;
+    border-radius: 25px 0 0 25px;
+    color: white;
+    z-index: 0;
+    text-align: left;
+}
+
+.beginner-item .workout-block h3{
+    width: 15vw;
+    font-size: 20px;
 }
 
 .strength{
     height: 100vh;
     background-color: #F3EFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.strength-top{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    height: 10vh;
 }
 
 .hiit{
     height: 100vh;
     background-color: #160D35;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.hiit-top{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 10vh;
+}
+
+
+

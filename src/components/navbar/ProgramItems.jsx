@@ -15,3 +15,22 @@ export const ProgramItems = [
         cName: 'program-dropdown-item'
     }
 ]
+
+export const WorkoutItems = [
+    {
+        title: 'Beginner',
+        path: '/beginner',
+        cName: 'program-dropdown-item'
+    },
+    {
+        title: 'Strength',
+        path: '/strength',
+        cName: 'program-dropdown-item'
+    },
+    {
+        title: 'HIIT',
+        path: '/hiit',
+        cName: 'program-dropdown-item'
+    }
+]
+
