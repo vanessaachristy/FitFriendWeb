@@ -7,6 +7,13 @@ export const BeginnerData = [
     {id: 6, category: "Full Body", duration: "10 MINS", img: "assets/5971179.jpg", title: "Full Body Burn at Home"},
     {id: 7, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
     {id: 8, category: "Full Body", duration: "15 MINS", img: "assets/5971179.jpg", title: "Full Body Burn at Home"},
+    {id: 9, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
+    {id: 7, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
+    {id: 8, category: "Full Body", duration: "15 MINS", img: "assets/5971179.jpg", title: "Full Body Burn at Home"},
+    {id: 9, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
+    {id: 7, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
+    {id: 8, category: "Full Body", duration: "15 MINS", img: "assets/5971179.jpg", title: "Full Body Burn at Home"},
+    {id: 9, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"},
     {id: 9, category: "Full Body", duration: "15 MINS", img: "assets/5103028.jpg", title: "Full Body Burn at Home"}
 
 ]

@@ -1,6 +1,7 @@
 import React from 'react'
 import './beginner.css'
 import { BeginnerData } from './WorkoutData'
+import Dropdown from "react-bootstrap/Dropdown"
 
 export default function Beginner() {
   return (
@@ -9,13 +10,28 @@ export default function Beginner() {
             <div className='sort'>
                 <h3>SORT:</h3>
                 <div className='sort-dropdown'>
-                    Hello
+                <Dropdown>
+                    <Dropdown.Toggle variant="success">
+                    Reccomended
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                    <Dropdown.Item href="#">
+                        Reccommended
+                    </Dropdown.Item>
+                    <Dropdown.Item href="#">
+                        Newest
+                    </Dropdown.Item>
+                    <Dropdown.Item href="#">
+                        Oldest
+                    </Dropdown.Item>
+                    </Dropdown.Menu>
+                </Dropdown>
                 </div>
             </div>
             <h1> BEGINNER WORKOUT</h1>
         </div>
         <div className='beginner-page-item'>
-        {BeginnerData.slice(0,8).map((workout)=>(
+        {BeginnerData.map((workout)=>(
                 <div className="workout-block">
                     <div className="top-block">
                         <div className="category">{workout.category}</div>

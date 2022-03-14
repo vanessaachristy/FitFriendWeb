@@ -100,7 +100,7 @@
     border-radius: 25px;
     box-shadow: 10px 10px #554A7C;
     background: linear-gradient(0deg, rgba(22, 13, 53, 0.4), rgba(22, 13, 53, 0.4)), url(Collage_PT_1.jpg);
-    background-size: 180%;
+    background-size: 200%;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -114,7 +114,7 @@
     border-radius: 25px;
     box-shadow: 10px 10px #554A7C;
     background: linear-gradient(0deg, rgba(22, 13, 53, 0.3), rgba(22, 13, 53, 0.3)), url(Edited__shutterstock_1056233618.jpg);
-    background-size: 180%;
+    background-size: 200%;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -201,13 +201,13 @@
 }
 
 .workout-block:hover{
-    min-width: 18vw;
+    min-width: 16vw;
     height: 43vh;
 }
 
 .workout-container{
     max-width: 80vw;
-    height: 45vh;
+    height: 50vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -254,8 +254,8 @@
     font-size: 10px;
     font-weight: 600;
     background-color:#554A7C;
-    width: 5vw;
-    height: 2vh;
+    width: 6vw;
+    height: 5vh;
     padding: 10px ;
     border-radius: 0 25px 25px 0;
     color: white;
@@ -266,8 +266,8 @@
     font-size: 10px;
     font-weight: 600;
     background-color:#9283C7;
-    width: 5vw;
-    height: 2vh;
+    width: 6vw;
+    height: 5vh;
     padding: 10px;
     border-radius: 25px 0 0 25px;
     color: white;

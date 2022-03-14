@@ -10,6 +10,7 @@
     overflow: hidden;
     border-radius: 0 0 50px 50px;
     overflow-y: none;
+    color: white;
 }
 
 .wrapper{

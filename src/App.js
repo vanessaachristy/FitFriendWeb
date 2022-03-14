@@ -1,5 +1,5 @@
 import React from "react";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/navbar/Navbar"
 import Home from "./components/home/Home"
 import Programs from "./components/programs/Programs";
