@@ -52,11 +52,42 @@
     margin-right: 10px;
     border-radius: 25px;
     background-color: white;
-    height: 50vh;
+    height: 55vh;
     min-width: 20vw;
     transition: all 0.25s ease-in-out;
     scroll-snap-align: start;
     margin-right: 20px;
     margin-bottom: 20px;
     box-shadow: 10px 10px #554A7C;
+}
+
+.beginner-page-item .workout-block .category{
+    font-size: 20px;
+    font-weight: 600;
+    background-color:#554A7C;
+    width: 10vw;
+    height: 10vh;
+    padding: 10px ;
+    border-radius: 0 25px 25px 0;
+    color: white;
+    z-index: 1;
+}
+
+.beginner-page-item .workout-block .duration{
+    font-size: 20px;
+    font-weight: 600;
+    background-color:#9283C7;
+    width: 10vw;
+    height: 10vh;
+    padding: 10px;
+    border-radius: 25px 0 0 25px;
+    color: white;
+    z-index: 0;
+    text-align: left;
+}
+
+.beginner-page-item .workout-block h3{
+    font-size: 20px;
+    font-weight: 700;
+    width: 15vw;
 }

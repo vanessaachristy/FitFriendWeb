@@ -33,7 +33,7 @@ export default function Navbar() {
     <div className = "navbar">
         <div className="wrapper">
             <div className='left'>
-                <a><div className="logo">
+                <a href="/home"><div className="logo">
                     FitFriend
                 </div></a>
             </div>
